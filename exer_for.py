@@ -23,3 +23,22 @@ lista = [[1, 'Raimundo', 40, 'f', 'pacheco_k81@hotmail.com', '033901987190'], [2
 ['codigo', 'nome','idade', 'sexo', 'e-mail', 'telefone']
 
 # Usando a lista, separe as pessoas com 31 anos e com sexo masculino e conte quantas pessoas.
+#lista_add = []
+contador = 0
+#for pessoas in lista :
+ #   if pessoas[2] == 31 and pessoas[3] == "m":
+  #      contador =contador + 1
+        
+    #    print (pessoas) 
+     #   print(contador)
+contador = 0    
+for p1 in lista :
+    if p1[2] >= 18 and p1[3] =="m" :
+        contador = contador + 1
+        print("ola  voce pagara : 5",p1)
+    elif p1[2] >= 18 and p1[3] =="f" :
+        contador = contador + 1
+
+        print("entrada gratuita",p1)
+          
+
