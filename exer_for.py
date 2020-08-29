@@ -31,14 +31,16 @@ contador = 0
         
     #    print (pessoas) 
      #   print(contador)
-contador = 0    
+contador_m = 0 
+contador_f = 0   
 for p1 in lista :
     if p1[2] >= 18 and p1[3] =="m" :
-        contador = contador + 1
-        print("ola  voce pagara : 5",p1)
+        contador_m = contador_m + 1
+        
     elif p1[2] >= 18 and p1[3] =="f" :
-        contador = contador + 1
-
-        print("entrada gratuita",p1)
+        contador_f = contador_f + 1
+        print(p1)
+        print(contador_m)
+        print(contador_f)
           
 
